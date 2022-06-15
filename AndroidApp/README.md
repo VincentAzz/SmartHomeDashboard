@@ -1,0 +1,2 @@
+# SmartHomeDashboard_Android
+ 基于stm32、esp8266和Android的智能家居系统-Android客户端

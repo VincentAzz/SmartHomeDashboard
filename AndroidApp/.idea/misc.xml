@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tom/Desktop/Android/SmartHomeDashboard/app/src/main/res/drawable/ic_outline_error_outline_24.xml" value="0.1" />
+        <entry key="..\:/Users/Tom/Desktop/Android/SmartHomeDashboard/app/src/main/res/layout/activity_main.xml" value="0.2703125" />
+        <entry key="..\:/Users/Tom/Desktop/Android/SmartHomeDashboard/app/src/main/res/layout/fragment_dashboard.xml" value="0.32051282051282054" />
+        <entry key="..\:/Users/Tom/Desktop/Android/SmartHomeDashboard/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Tom/Desktop/Android/SmartHomeDashboard/app/src/main/res/layout/fragment_note.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Tom/Desktop/Android/SmartHomeDashboard/app/src/main/res/layout/fragment_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Tom/Desktop/Android/SmartHomeDashboard/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.390625" />
+        <entry key="..\:/Users/Tom/Desktop/Android/SmartHomeDashboard/app/src/main/res/menu/toolbar_dashboard.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

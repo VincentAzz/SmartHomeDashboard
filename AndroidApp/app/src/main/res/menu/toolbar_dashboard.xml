@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/icoOffline"
+        android:icon="@drawable/ic_cound_off_red"
+        android:title="连接断开"
+        android:contentDescription="连接断开"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/icoOnline"
+        android:icon="@drawable/ic_cound_on"
+        android:title="连接成功"
+        android:contentDescription="连接成功"
+        app:showAsAction="ifRoom" />
+</menu>
