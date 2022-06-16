@@ -5,38 +5,38 @@
 硬件选型，硬件连线，传感器数据采集，数据封装上行，下行数据解析，服务器搭建，Android APP开发与调试
 
 ## 🏷️ 系统功能
-模拟智能家居场景，包含环境测量、警报与照明控制功能。
-传感器测量环境数据（温度、湿度、光照度），实时监控并上行到服务器。当测量值超过设定阈值时触发蜂鸣器报警。
-用户可以通过Android客户端查看测量数据，控制警报与照明开关，也可通过实体按钮进行控制。
+模拟智能家居场景，包含环境测量、警报与照明控制功能。<br>
+传感器测量环境数据（温度、湿度、光照度），实时监控并上行到服务器。当测量值超过设定阈值时触发蜂鸣器报警。<br>
+用户可以通过Android客户端查看测量数据，控制警报与照明开关，也可通过实体按钮进行控制。<br>
 
 ## 🏷️ 报警逻辑
 
 				if((humidityH < 90) && (temperatureH < 30) && (Light < 2000))alarmFlag = 0;
 				else alarmFlag = 1;
     
-正常范围：湿度<90% 且 温度<30C 且 光照度<2000lx
-触发警报：任意测量值超出正常范围则触发警报
+正常范围：湿度<90% 且 温度<30C 且 光照度<2000lx<br>
+触发警报：任意测量值超出正常范围则触发警报<br>
 
 ## 🏷️ 硬件设备
-STM32F103C8T6开发板
-ESP826601S Wi-Fi模块
-ST-LINK V2 下载器
-CP2102 USB-TTL串口模块
-DHT11 温湿度传感器
-BHT1750 光照度传感器
-蜂鸣器*1
-LED*1
-开关*2
+STM32F103C8T6开发板<br>
+ESP826601S Wi-Fi模块<br>
+ST-LINK V2 下载器<br>
+CP2102 USB-TTL串口模块<br>
+DHT11 温湿度传感器<br>
+BHT1750 光照度传感器<br>
+蜂鸣器<br>
+LED<br>
+开关<br>
 
 ## 🏷️ 开发环境与工具
 ### Windows 11:
-Keil uVision5
-SSCOM 串口调试工具
-Android Studio
-MQTT X
-EMQX消息面板
+Keil uVision5<br>
+SSCOM 串口调试工具<br>
+Android Studio<br>
+MQTT X<br>
+EMQX消息面板<br>
 ### wsl子系统(Ubuntu 20.04):
-EMQX MQTT消息服务器
+EMQX MQTT消息服务器<br>
 
 ## 🏷️ 硬件连线
 | <img src="https://user-images.githubusercontent.com/95619684/174008419-eba98939-f096-46cc-8981-ce57b219069b.png" width="600"/> |
