@@ -33,10 +33,10 @@ LED<br>
 Keil uVision5<br>
 SSCOM 串口调试工具<br>
 Android Studio<br>
-MQTT X<br>
-EMQX消息面板<br>
+MQTT X https://mqttx.app/zh <br>
+EMQX消息面板 http://tools.emqx.io <br>
 ### wsl子系统(Ubuntu 20.04):
-EMQX MQTT消息服务器<br>
+EMQX MQTT消息服务器 https://www.emqx.io/docs/zh/v4.4/ <br>
 
 ## 🏷️ 硬件连线
 | <img src="https://user-images.githubusercontent.com/95619684/174008419-eba98939-f096-46cc-8981-ce57b219069b.png" width="600"/> |
