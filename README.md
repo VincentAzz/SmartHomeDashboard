@@ -9,6 +9,14 @@
 传感器测量环境数据（温度、湿度、光照度），实时监控并上行到服务器。当测量值超过设定阈值时触发蜂鸣器报警。
 用户可以通过Android客户端查看测量数据，控制警报与照明开关，也可通过实体按钮进行控制。
 
+## 🏷️ 报警逻辑
+
+				if((humidityH < 90) && (temperatureH < 30) && (Light < 2000))alarmFlag = 0;
+				else alarmFlag = 1;
+    
+正常范围：湿度<90% 且 温度<30C 且 光照度<2000lx
+触发警报：任意测量值超出正常范围则触发警报
+
 ## 🏷️ 硬件设备
 STM32F103C8T6开发板
 ESP826601S Wi-Fi模块
@@ -23,6 +31,7 @@ LED*1
 ## 🏷️ 开发环境与工具
 ### Windows 11:
 Keil uVision5
+SSCOM 串口调试工具
 Android Studio
 MQTT X
 EMQX消息面板
@@ -30,7 +39,7 @@ EMQX消息面板
 EMQX MQTT消息服务器
 
 ## 🏷️ 硬件连线
-| <img src="https://user-images.githubusercontent.com/95619684/174008419-eba98939-f096-46cc-8981-ce57b219069b.png" width="1000"/> |
+| <img src="https://user-images.githubusercontent.com/95619684/174008419-eba98939-f096-46cc-8981-ce57b219069b.png" width="600"/> |
 |:---:|
 | 硬件连线 |
 
@@ -53,6 +62,11 @@ Android客户端可查看环境数据、控制警报与照明、手动连接与�
 | <img src="https://user-images.githubusercontent.com/95619684/174006123-44b62dc6-e98f-4d11-a751-73b6e7142316.png" width="200"/> | <img src="https://user-images.githubusercontent.com/95619684/174006523-4bb2224a-34fc-49b5-8216-70ad6d69a0e7.png" width="200"/> |
 |:---:|:---:|
 | 断开服务器 | 连接服务器 |
+
+## 🏷️ 本地串口调试: SSCOM
+| <img src="https://user-images.githubusercontent.com/95619684/174009050-d59fc82b-838e-40b0-9514-7aba948c9a75.png" width="600"/> |
+|:---:|
+| SSCOM |
 
 ## 🏷️ EMQX 服务器消息在线工具: http://tools.emqx.io
 
