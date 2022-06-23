@@ -11,8 +11,8 @@
 
 ## 🏷️ 报警逻辑
 
-				if((humidityH < 90) && (temperatureH < 30) && (Light < 2000))alarmFlag = 0;
-				else alarmFlag = 1;
+	if((humidityH < 90) && (temperatureH < 30) && (Light < 2000))alarmFlag = 0;
+	else alarmFlag = 1;
     
 正常范围：湿度<90% 且 温度<30C 且 光照度<2000lx<br>
 触发警报：任意测量值超出正常范围则触发警报<br>
@@ -42,6 +42,11 @@ EMQX MQTT消息服务器 https://www.emqx.io/docs/zh/v4.4/ <br>
 | <img src="https://user-images.githubusercontent.com/95619684/174008419-eba98939-f096-46cc-8981-ce57b219069b.png" width="600"/> |
 |:---:|
 | 硬件连线 |
+
+## 🏷️ 系统框图
+| <img src="https://user-images.githubusercontent.com/95619684/175328014-f4e55772-4e63-4e93-8b71-e890c042d333.jpg" width="600"/> |
+|:---:|
+| 系统框图 |
 
 
 
